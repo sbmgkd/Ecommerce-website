@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
-import { set, useForm } from "react-hook-form";
-import { AuthContext } from "../conntext/AuthContext";
+import { useForm } from "react-hook-form";
+import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 export default function Auth() {
